@@ -1,0 +1,302 @@
+{
+    "sem-1": {
+        "Lectures": [
+            {
+                "name": "Software Development Fundamentals - 1",
+                "credit": 4
+            },
+            {
+                "name": "English",
+                "credit": 3
+            },
+            {
+                "name": "Maths-1",
+                "credit": 4
+            },
+            {
+                "name": "Physics-1",
+                "credit": 4
+            }
+        ],
+        "Labs": [
+            {
+                "name": "Software Development - 1",
+                "credit": 2
+            },
+            {
+                "name": "Physics-1",
+                "credit": 1
+            },
+            {
+                "name": "Workshop",
+                "credit": 1.5
+            }
+        ]
+    },
+    "sem-2": {
+        "Lectures": [
+            {
+                "name": "Software Development Fundamentals - 2",
+                "credit": 4
+            },
+            {
+                "name": "Electrical Science-1",
+                "credit": 4
+            },
+            {
+                "name": "Mathematics-2",
+                "credit": 4
+            },
+            {
+                "name": "Physics-2",
+                "credit": 4
+            }
+        ],
+        "Labs": [
+            {
+                "name": "Software Development - 2",
+                "credit": 1
+            },
+            {
+                "name": "Electrical Science-1",
+                "credit": 1
+            },
+            {
+                "name": "Physics-2",
+                "credit": 1
+            },
+            {
+                "name": "Engineering Drawing",
+                "credit": 1.5
+            }
+        ]
+    },
+    "sem-3": {
+        "Lectures": [
+            {
+                "name": "Theoretical Foundation of Computer Science",
+                "credit": 4
+            },
+            {
+                "name": "Data Structures",
+                "credit": 4
+            },
+            {
+                "name": "Database System and Web",
+                "credit": 4
+            },
+            {
+                "name": "Electrical Science-2",
+                "credit": 4
+            },
+            {
+                "name": "Economics",
+                "credit": 3
+            }
+        ],
+        "Labs": [
+            {
+                "name": "Data Structures",
+                "credit": 2
+            },
+            {
+                "name": "Database System and Web",
+                "credit": 1
+            },
+            {
+                "name": "Electrical Science-2",
+                "credit": 1
+            }
+        ]
+    },
+    "sem-4": {
+        "Lectures": [
+            {
+                "name": "Environmental Studies",
+                "credit": 0
+            },
+            {
+                "name": "Digital Systems",
+                "credit": 4
+            },
+            {
+                "name": "Introduction To Psychology",
+                "credit": 3
+            },
+            {
+                "name": "Probability And Random Processes",
+                "credit": 4
+            },
+            {
+                "name": "Life Skills",
+                "credit": 2
+            },
+            {
+                "name": "Algorithms And Problem Solving",
+                "credit": 3
+            }
+        ],
+        "Labs": [
+            {
+                "name": "Digital Systems",
+                "credit": 1
+            },
+            {
+                "name": "Algorithms And Problem Solving",
+                "credit": 1
+            }
+        ]
+    },
+    "sem-5": {
+        "Lectures": [
+            {
+                "name": "Computer Organization And Architecture",
+                "credit": 4
+            },
+            {
+                "name": "Operating Systems and System Programming",
+                "credit": 4
+            },
+            {
+                "name": "Planning And Economic Development",
+                "credit": 3
+            },
+            {
+                "name": "Theory of Numbers",
+                "credit": 3
+            },
+            {
+                "name": "Object Oriented Analysis And Design using Java",
+                "credit": 3
+            },
+            {
+                "name": "Indian Constitution and Traditional Knowledge",
+                "credit": 0
+            }
+        ],
+        "Labs": [
+            {
+                "name": "Computer Organization And Architecture",
+                "credit": 1
+            },
+            {
+                "name": "Operating Systems and System Programming",
+                "credit": 1
+            },
+            {
+                "name": "Open Source Software",
+                "credit": 1
+            },
+            {
+                "name": "Information Security",
+                "credit": 1
+            }
+        ],
+        "Project": [
+            {
+                "name": "Minor Project - 1",
+                "credit": 2
+            }
+        ]
+    },
+    "sem-6": {
+        "Lectures": [
+            {
+                "name": "Software Engineering",
+                "credit": 4
+            },
+            {
+                "name": "Project Management",
+                "credit": 3
+            },
+            {
+                "name": "Computer Networks and Internet Of Things",
+                "credit": 3
+            },
+            {
+                "name": "International Trade and Finance",
+                "credit": 3
+            },
+            {
+                "name": "java Programming",
+                "credit": 0
+            },
+            {
+                "name": "Web Technology and Cyber Security",
+                "credit": 3
+            },
+            {
+                "name": "Concepts of Graph Theory",
+                "credit": 3
+            }
+        ],
+        "Labs": [
+            {
+                "name": "Software Engineering",
+                "credit": 1
+            },
+            {
+                "name": "Computer Networks and Internet Of Things",
+                "credit": 1
+            }
+        ],
+        "Project": [
+            {
+                "name": "Minor Project - 2",
+                "credit": 2
+            }
+        ]
+    },
+    "sem-7": {
+        "Lectures": [
+            {
+                "name": "Summer Traning Viva",
+                "credit": 0
+            },
+            {
+                "name": "Healthcare and MarketPlace",
+                "credit": 3
+            },
+            {
+                "name": "Cryptography and its Applications",
+                "credit": 3
+            },
+            {
+                "name": "Secure Design of Software Systems",
+                "credit": 3
+            },
+            {
+                "name": "Ethical Hacking and Prevention",
+                "credit": 3
+            }
+        ],
+        "Project": [
+            {
+                "name": "Major Project - 1",
+                "credit": 4
+            }
+        ]
+    },
+    "sem-8": {
+        "Lectures": [
+            {
+                "name": "Gender Studies",
+                "credit": 3
+            },
+            {
+                "name": "Agile Software Development Processes",
+                "credit": 3
+            },
+            {
+                "name": "Cloud Computing Essentials : Azure and AWS",
+                "credit": 3
+            }
+        ],
+        "Project": [
+            {
+                "name": "Major Project - 2",
+                "credit": 8
+            }
+        ]
+    }
+}
