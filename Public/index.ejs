@@ -13,25 +13,49 @@
     <h1 class="mt-5 mb-4">Course Semesters</h1>
     
     <% for (let thisSem of Object.keys(sems)) { %>
+        <% let totalSemCredits = 0; %>
+
+        <!-- Calculate total credits for lectures -->
+        <% if (sems[thisSem].Lectures && sems[thisSem].Lectures.length > 0) { %>
+            <% for (let i of Object.keys(sems[thisSem].Lectures)) { %>
+                <% totalSemCredits += sems[thisSem].Lectures[i].credit; %>
+            <% } %>
+        <% } %>
+
+        <!-- Calculate total credits for labs -->
+        <% if (sems[thisSem].Labs && sems[thisSem].Labs.length > 0) { %>
+            <% for (let i of Object.keys(sems[thisSem].Labs)) { %>
+                <% totalSemCredits += sems[thisSem].Labs[i].credit; %>
+            <% } %>
+        <% } %>
+
+        <!-- Calculate total credits for projects -->
+        <% if (sems[thisSem].Project && sems[thisSem].Project.length > 0) { %>
+            <% for (let i of Object.keys(sems[thisSem].Project)) { %>
+                <% totalSemCredits += sems[thisSem].Project[i].credit; %>
+            <% } %>
+        <% } %>
+
         <div class="card mb-4">
             <div class="card-header">
-                <h2><%= thisSem %></h2>
+                <h4 class="text-truncate text-center"><%= thisSem %> | <small class="fs-8"> Total Credits: <%= totalSemCredits %> </small> </h4>
             </div>
             <div class="card-body">
                 <div class="row">
                     <!-- Lectures Column -->
                     <% if (sems[thisSem].Lectures && sems[thisSem].Lectures.length > 0) { %>
                         <div class="col">
-                            <h5 class="card-title">Lectures</h5>
+                            <h5 class="card-title text-center">Lectures</h5>
                             <ul class="list-group">
                                 <% for (let i of Object.keys(sems[thisSem].Lectures)) { %>
-                                    <li class="list-group-item">
+                                    <% let credit = sems[thisSem].Lectures[i].credit; %>
+                                    <li class="list-group-item" style="background-color: rgba(0, 123, 255, <%= credit / 10 %>);">
                                         <div class="row">
-                                            <div class="col-8">
+                                            <div class="col-8 text-truncate">
                                                 <%= sems[thisSem].Lectures[i].name %>
                                             </div>
                                             <div class="col-4 text-end">
-                                                Credits: <%= sems[thisSem].Lectures[i].credit %>
+                                                <small class="fs-8 text-muted">Credits: <%= credit %></small>
                                             </div>
                                         </div>
                                     </li>
@@ -43,16 +67,17 @@
                     <!-- Labs Column -->
                     <% if (sems[thisSem].Labs && sems[thisSem].Labs.length > 0) { %>
                         <div class="col">
-                            <h5 class="card-title">Labs</h5>
+                            <h5 class="card-title text-center">Labs</h5>
                             <ul class="list-group">
                                 <% for (let i of Object.keys(sems[thisSem].Labs)) { %>
-                                    <li class="list-group-item">
+                                    <% let credit = sems[thisSem].Labs[i].credit; %>
+                                    <li class="list-group-item" style="background-color: rgba(0, 123, 255, <%= credit / 10 %>);">
                                         <div class="row">
-                                            <div class="col-8">
+                                            <div class="col-8 text-truncate">
                                                 <%= sems[thisSem].Labs[i].name %>
                                             </div>
                                             <div class="col-4 text-end">
-                                                Credits: <%= sems[thisSem].Labs[i].credit %>
+                                                <small class="fs-8 text-muted">Credits: <%= credit %></small>
                                             </div>
                                         </div>
                                     </li>
@@ -64,16 +89,17 @@
                     <!-- Project Column -->
                     <% if (sems[thisSem].Project && sems[thisSem].Project.length > 0) { %>
                         <div class="col">
-                            <h5 class="card-title">Project</h5>
+                            <h5 class="card-title text-center">Project</h5>
                             <ul class="list-group">
                                 <% for (let i of Object.keys(sems[thisSem].Project)) { %>
-                                    <li class="list-group-item">
+                                    <% let credit = sems[thisSem].Project[i].credit; %>
+                                    <li class="list-group-item" style="background-color: rgba(0, 123, 255, <%= credit / 10 %>);">
                                         <div class="row">
-                                            <div class="col-8">
+                                            <div class="col-8 text-truncate">
                                                 <%= sems[thisSem].Project[i].name %>
                                             </div>
                                             <div class="col-4 text-end">
-                                                Credits: <%= sems[thisSem].Project[i].credit %>
+                                                <small class="fs-8 text-muted">Credits: <%= credit %></small>
                                             </div>
                                         </div>
                                     </li>

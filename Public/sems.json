@@ -1,5 +1,5 @@
 {
-    "sem-1": {
+    "Sem-1": {
         "Lectures": [
             {
                 "name": "Software Development Fundamentals - 1",
@@ -33,7 +33,7 @@
             }
         ]
     },
-    "sem-2": {
+    "Sem-2": {
         "Lectures": [
             {
                 "name": "Software Development Fundamentals - 2",
@@ -71,7 +71,7 @@
             }
         ]
     },
-    "sem-3": {
+    "Sem-3": {
         "Lectures": [
             {
                 "name": "Theoretical Foundation of Computer Science",
@@ -109,7 +109,7 @@
             }
         ]
     },
-    "sem-4": {
+    "Sem-4": {
         "Lectures": [
             {
                 "name": "Environmental Studies",
@@ -147,7 +147,7 @@
             }
         ]
     },
-    "sem-5": {
+    "Sem-5": {
         "Lectures": [
             {
                 "name": "Computer Organization And Architecture",
@@ -199,7 +199,7 @@
             }
         ]
     },
-    "sem-6": {
+    "Sem-6": {
         "Lectures": [
             {
                 "name": "Software Engineering",
@@ -218,7 +218,7 @@
                 "credit": 3
             },
             {
-                "name": "java Programming",
+                "name": "Java Programming",
                 "credit": 0
             },
             {
@@ -247,7 +247,7 @@
             }
         ]
     },
-    "sem-7": {
+    "Sem-7": {
         "Lectures": [
             {
                 "name": "Summer Traning Viva",
@@ -277,7 +277,7 @@
             }
         ]
     },
-    "sem-8": {
+    "Sem-8": {
         "Lectures": [
             {
                 "name": "Gender Studies",
